@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
 
   s.osx.deployment_target = '10.15'
   s.ios.deployment_target = '13.0'
+  s.watchos.deployment_target  = '10.0'
 
   s.source_files = 'Sources/LanguageManagerSwiftUI/**/*'
   
